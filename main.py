@@ -16,7 +16,7 @@ def main():
     
     while True:
 
-        """ イベント """
+        """ event """
         for event in pygame.event.get():
             if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
                 if pic_st == 1:
